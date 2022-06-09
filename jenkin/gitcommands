@@ -1,0 +1,79 @@
+ git init
+git config --global user.name "sirisha"
+git config --global user.email "pallishireesha@gmail.com"
+config --list
+
+touch file1
+ls
+git status
+git addfile1
+git status
+git commit -m "label" file1
+git status
+git log 
+git show cid
+clear (to clear screen)
+
+
+touch file2 file3 file4
+ls
+git status
+git add.
+or
+git add*
+or 
+git add -A
+or 
+git add file-name file-name
+git status
+git log
+git reset HEAD file-name(staging o workspace) 
+git reset --soft CID(local repository to staging)
+git reset --mixed CID(local repository to workspace)
+git reset --hard CID(to delete information)
+
+
+
+git clone path of central repository(clone means copy of data from central repository)
+ls
+cd Repo1
+touch file2
+git status
+git add file2
+git status
+git commit -m "test commit" file2
+git log
+git push(can push into central repository)
+---------------------------------------
+touch, CAT,VI
+--------------------------------------
+TOUCH
+-----
+touch file-name(to create empty file)
+ls
+touch file2 file3 file4(to create multiple files)
+ls
+-----
+CAT (to create a file& add data into existing file & can view data in file)
+-----
+cat > file
+.....
+....
+...
+ctrl+d
+cat file (can show data of file)
+cat >> file (can add data into existing data file)
+....
+...
+ctrl+d
+-------
+VI editor(to create file)
+-------
+vi filename
+esc i (insert data)
+....
+.... 
+esc :w (to save data)
+esc :q (to close screen)
+or
+esc :wq
